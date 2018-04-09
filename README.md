@@ -2,7 +2,8 @@
 
 I have heard at least one data scientist say that most of their time is spent
 cleaning data (the article suggets about 80% of their time), so when I ran across
-this tutorial I decided to try it out.
+this great [article](https://realpython.com/python-data-cleaning-numpy-pandas/)
+I decided to try it out.
 
 The recommendation is to use Jupyter notebooks but I chose to use IPython.
 
@@ -12,7 +13,7 @@ However, I also created a batch version (`winston_wolfe.py`) for fun.
 
 Lets start with our first dataset.
 
-The first thing is to have a look at the data. here we will use the `head()`
+The first thing is to have a look at the data. Here we will use the `head()`
 command to inspect the first 5 records of our input file (`head` is an old
 \*nix command meaning show the ___head___ of the specified file; and the `\`
 character has long been used in \*nix as a continuation character; here the
@@ -307,7 +308,7 @@ Name: Place of Publication, dtype: object
 >>>
 ```
 
-Lets see what if we can isolate London:
+Lets see if we can isolate London:
 
 ``` Python
 >>> pub = df['Place of Publication']
@@ -341,7 +342,7 @@ Name: Place of Publication, dtype: object
 >>>
 ```
 
-We could *clean* up leading and trailing whitespace with something like the following:
+We *could* clean up leading and trailing whitespace with something like the following:
 
 
 ``` Python
