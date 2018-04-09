@@ -4,8 +4,8 @@
 A quick and dirty 'cleaner' for some data files.
 """
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 # First dataset ====================================
 
@@ -70,7 +70,7 @@ TOWNS_DF.to_csv('Output/university_towns.csv', header='column_names')
 
 # Third dataset ====================================
 
-# Our real header line is the sedond one (offset 1)
+# Our real header line is the second one (offset 1)
 OLYMPICS_DF = pd.read_csv('Datasets/olympics.csv', header=1)
 
 # The mapping of old -> new column names
