@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-"""
-A quick and dirty 'cleaner' for some data files.
+""" A quick and dirty 'cleaner' for some data files.
+
+Three datasets will be cleaned, with cells reformatted as needed.
 """
 
 import numpy as np

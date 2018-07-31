@@ -548,6 +548,57 @@ Silver, Bronze) so that each column is unique within the dataframe.
 
 And thus ends the tutorial on cleaning data with Python.
 
+## Python and pydoc
+
+Some great stuff on documenting Python code here:
+
+    https://realpython.com/documenting-python-code/
+
+Lets clean up the code comments so that `pydoc` displays cleanly:
+
+```
+Help on module winston_wolfe:
+
+NAME
+    winston_wolfe - A quick and dirty 'cleaner' for some data files.
+
+FILE
+    /home/owner/Documents/Python/Data Cleaning/winston_wolfe.py
+
+DESCRIPTION
+    Three datasets will be cleaned, with cells reformatted as needed.
+
+FUNCTIONS
+    get_citystate(item)
+        A function to clean up data cells.
+
+DATA
+    DF =            Place of Publication  Date of Publica...s/britishlibra...
+    EXTRACT = Identifier
+    206        1879
+    216        1868
+    218  ... Date of ...
+    LONDON = Identifier
+    206         True
+    216         True
+    218...: Place of...
+    NEW_NAMES = {'01 !': 'Gold', '01 !.1': 'Gold.1', '01 !.2': 'Gold.2', '...
+    OLYMPICS_DF =                                           Countr...  607...
+    OXFORD = Identifier
+    206        False
+    216        False
+    218...: Place of...
+    PUB = Identifier
+    206                     London
+    216   ...Place of Publ...
+    TOWNS_DF =              State                    RegionName...        ...
+    TO_DROP = ['Edition Statement', 'Corporate Author', 'Corporate Contrib...
+    UNIVERSITY_TOWNS = [('Alabama[edit]\n', 'Auburn (Auburn University)[1]...
+    line = 'Laramie (University of Wyoming)[5]\n'
+    state = 'Wyoming[edit]\n'
+    towns = <closed file 'Datasets/university_towns.txt', mode 'r'>
+```
+
 ## Reference
 
 read_csv
