@@ -1,6 +1,6 @@
 # Data Cleaning with NumPy and Pandas
 
-[![Known Vulnerabilities](https://snyk.io/test/github/mramshaw/Data-Cleaning/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/mramshaw/Data-Cleaning?targetFile=requirements.txt)
+[![Known Vulnerabilities](https://snyk.io/test/github/mramshaw/Data-Cleaning/badge.svg?style=plastic&targetFile=requirements.txt)](https://snyk.io/test/github/mramshaw/Data-Cleaning?style=plastic&targetFile=requirements.txt)
 
 I have heard at least one data scientist say that most of their time is spent
 cleaning data (the article suggets about 80% of their time), so when I ran across
