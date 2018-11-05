@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-""" A quick and dirty 'cleaner' for some data files.
+"""
+A quick and dirty 'cleaner' for some data files.
 
 Three datasets will be cleaned, with cells reformatted as needed.
 """
@@ -55,7 +56,7 @@ TOWNS_DF = pd.DataFrame(UNIVERSITY_TOWNS,
 
 
 def get_citystate(item):
-    """ A function to clean up data cells. """
+    """Help for cleaning up data cells."""
     if ' (' in item:
         return item[:item.find(' (')]
     elif '[' in item:

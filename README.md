@@ -1,10 +1,10 @@
 # Data Cleaning with NumPy and Pandas
 
-[![Known Vulnerabilities](https://snyk.io/test/github/mramshaw/Data-Cleaning/badge.svg?style=plastic&targetFile=requirements.txt)](https://snyk.io/test/github/mramshaw/Data-Cleaning?style=plastic&targetFile=requirements.txt)
+[![Known Vulnerabilities](http://snyk.io/test/github/mramshaw/Data-Cleaning/badge.svg?style=plastic&targetFile=requirements.txt)](http://snyk.io/test/github/mramshaw/Data-Cleaning?style=plastic&targetFile=requirements.txt)
 
 I have heard at least one data scientist say that most of their time is spent
 cleaning data (the article suggets about 80% of their time), so when I ran across
-this great [article](https://realpython.com/python-data-cleaning-numpy-pandas/)
+this great [article](http://realpython.com/python-data-cleaning-numpy-pandas/)
 I decided to try it out.
 
 The recommendation is to use Jupyter notebooks but I chose to use IPython.
@@ -554,7 +554,7 @@ And thus ends the tutorial on cleaning data with Python.
 
 Some great stuff on documenting Python code here:
 
-    https://realpython.com/documenting-python-code/
+    http://realpython.com/documenting-python-code/
 
 Lets clean up the code comments so that `pydoc` displays cleanly:
 
@@ -605,32 +605,33 @@ DATA
 
 read_csv
 
-    https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html#pandas.read_csv
+    http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html#pandas.read_csv
 
 read_pickle
 
-    https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_pickle.html#pandas.read_pickle
+    http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_pickle.html#pandas.read_pickle
 
 drop
 
-    https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.drop.html#pandas.DataFrame.drop
+    http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.drop.html#pandas.DataFrame.drop
 
 to_csv
 
-    https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.to_csv.html#pandas.Series.to_csv
+    http://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.to_csv.html#pandas.Series.to_csv
 
 to_pickle
 
-    https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_pickle.html#pandas.DataFrame.to_pickle
+    http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_pickle.html#pandas.DataFrame.to_pickle
 
 ## To Do
 
+- [x] Rephrase doc comments to conform to `pydocstyle`
 - [ ] Pickle everything instead of writing output files
 
 ## Credits
 
 Inspired by this great tutorial:
 
-    https://realpython.com/python-data-cleaning-numpy-pandas/
+    http://realpython.com/python-data-cleaning-numpy-pandas/
 
 I have been really impressed by the quality of the Real Python tutorials.
