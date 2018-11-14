@@ -7,9 +7,10 @@
     Jared Lander - http://changelog.com/practicalai/7
 
 At meetups, I have heard at least one data scientist say that most of their time is
-spent cleaning data (the RealPython article suggets about 80% of their time), so
-when I ran across this great [article](http://realpython.com/python-data-cleaning-numpy-pandas/)
-I decided to try it out.
+spent cleaning data so when I ran across this great
+[RealPython article](http://realpython.com/python-data-cleaning-numpy-pandas/)
+I decided to try it out (the article suggests about 80% of a data scientists
+ time is spent cleaning data).
 
 The recommendation is to use Jupyter notebooks but I chose to use IPython.
 
