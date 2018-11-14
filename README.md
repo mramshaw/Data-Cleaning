@@ -2,9 +2,13 @@
 
 [![Known Vulnerabilities](http://snyk.io/test/github/mramshaw/Data-Cleaning/badge.svg?style=plastic&targetFile=requirements.txt)](http://snyk.io/test/github/mramshaw/Data-Cleaning?style=plastic&targetFile=requirements.txt)
 
-I have heard at least one data scientist say that most of their time is spent
-cleaning data (the article suggets about 80% of their time), so when I ran across
-this great [article](http://realpython.com/python-data-cleaning-numpy-pandas/)
+> let’s be honest, the vast majority of time a data scientist spends is not doing all the really cool modeling that we all wanna do, it’s doing the data prep, the manipulation, reporting, graphing… That’s 80%-90% of the job now.
+
+    Jared Lander - http://changelog.com/practicalai/7
+
+At meetups, I have heard at least one data scientist say that most of their time is
+spent cleaning data (the RealPython article suggets about 80% of their time), so
+when I ran across this great [article](http://realpython.com/python-data-cleaning-numpy-pandas/)
 I decided to try it out.
 
 The recommendation is to use Jupyter notebooks but I chose to use IPython.
