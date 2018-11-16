@@ -628,6 +628,9 @@ DATA
 
 ## Reference
 
+Tidy Data
+
+```
 @Article{tidy-data,
   author = {Hadley Wickham},
   issue = {10},
@@ -639,6 +642,7 @@ DATA
   year = {2014},
   bdsk-url-1 = {http://www.jstatsoft.org/v59/i10/},
 }
+```
 
 read_csv
 
