@@ -16,6 +16,26 @@ The recommendation is to use Jupyter notebooks but I chose to use IPython.
 
 However, I also created a batch version (`winston_wolfe.py`) for fun.
 
+## Other Terms
+
+___Data Cleaning___ is also referred to as ___Data Wrangling___,
+___Data Munging___ and ___Data Preparation___. All of these refer
+to preparing data for ingestion into a data processing stream of
+some kind. Computers are very intolerant of format differences,
+so all of the data must be reformatted to conform to a standard
+(or "clean") format. Missing data and partial datasets can be
+problematic, so an initial goal is to identify data deficiencies
+before they lead to spurious results.
+
+Other requirements may including ___normalizing___ data sets,
+which generally means scaling the data to values between 0 and 1
+(this enables certain types of numerical analysis).
+
+The end result may sometimes be referred to as ___tidy data___,
+however it is important to remember that data cleaning is not
+always a one-time task. The further use of any given dataset
+may well highlight details that need further cleaning.
+
 ## Exploration
 
 Lets start with our first dataset.
@@ -607,6 +627,18 @@ DATA
 ```
 
 ## Reference
+
+@Article{tidy-data,
+  author = {Hadley Wickham},
+  issue = {10},
+  journal = {The Journal of Statistical Software},
+  selected = {TRUE},
+  title = {Tidy data},
+  url = {http://www.jstatsoft.org/v59/i10/},
+  volume = {59},
+  year = {2014},
+  bdsk-url-1 = {http://www.jstatsoft.org/v59/i10/},
+}
 
 read_csv
 
