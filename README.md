@@ -2,9 +2,22 @@
 
 [![Known Vulnerabilities](http://snyk.io/test/github/mramshaw/Data-Cleaning/badge.svg?style=plastic&targetFile=requirements.txt)](http://snyk.io/test/github/mramshaw/Data-Cleaning?style=plastic&targetFile=requirements.txt)
 
-> let’s be honest, the vast majority of time a data scientist spends is not doing all the really cool modeling that we all wanna do, it’s doing the data prep, the manipulation, reporting, graphing… That’s 80%-90% of the job now.
+> let’s be honest, the vast majority of time a data scientist spends is not doing all the really cool modeling that we all wanna do,
+> it’s doing the data prep, the manipulation, reporting, graphing… That’s 80%-90% of the job now.
 
     Jared Lander - http://changelog.com/practicalai/7
+
+Shamelessly stolen from the [CrowdFlower 2016 survey](http://visit.figure-eight.com/rs/416-ZBE-142/images/CrowdFlower_DataScienceReport_2016.pdf):
+
+![What Data Scientists do](images/What_data_scientists_do.png)
+
+> The things data scientists do most are the things they enjoy least.
+
+From the same survey:
+
+![What Data Scientists enjoy least](images/What_data_scientists_enjoy_least.png)
+
+[Note that the above graphics are based upon a __2016__ survey.]
 
 At meetups, I have heard at least one data scientist say that most of their time is
 spent cleaning data so when I ran across this great
@@ -19,9 +32,9 @@ However, I also created a batch version (`winston_wolfe.py`) for fun.
 ## Other Terms
 
 ___Data Cleaning___ is also referred to as ___Data Wrangling___,
-___Data Munging___ and ___Data Preparation___. All of these refer
-to preparing data for ingestion into a data processing stream of
-some kind. Computers are very intolerant of format differences,
+___Data Munging___, ___Data Janitor Work___ and ___Data Preparation___.
+All of these refer to preparing data for ingestion into a data processing
+stream of some kind. Computers are very intolerant of format differences,
 so all of the data must be reformatted to conform to a standard
 (or "clean") format. Missing data and partial datasets can be
 problematic, so an initial goal is to identify data deficiencies
@@ -667,6 +680,7 @@ to_pickle
 ## To Do
 
 - [x] Rephrase doc comments to conform to `pydocstyle`
+- [x] Add survey results from [CrowdFlower 2016 survey](http://visit.figure-eight.com/rs/416-ZBE-142/images/CrowdFlower_DataScienceReport_2016.pdf)
 - [ ] Pickle everything instead of writing output files
 
 ## Credits
