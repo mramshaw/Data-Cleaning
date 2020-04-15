@@ -27,7 +27,7 @@ I decided to try it out (the article suggests about 80% of a data scientists
 
 The recommendation is to use Jupyter notebooks but I chose to use IPython.
 
-However, I also created a batch version (`winston_wolfe.py`) for fun.
+I also created a batch version for fun: [winston_wolfe.py](winston_wolfe.py)
 
 ## Other Terms
 
