@@ -40,6 +40,14 @@ so all of the data must be reformatted to conform to a standard
 problematic, so an initial goal is to identify data deficiencies
 before they lead to spurious results.
 
+[Sometimes it is not mentioned at all, merely ___implied___.
+ It is generally not possible to carry out an __ETL__ (Extract,
+ Transform and Load) job without doing at least ___some___
+ data cleaning. If you are asked for a time estimate for an ETL
+ job, remember to factor in time for data examination & data
+ cleaning. Not to mention how to handle [outliers](http://en.wikipedia.org/wiki/Outlier)
+ (drop or not? if so, what is a good cutoff point? etc.).]
+
 Other requirements may including ___normalizing___ data sets,
 which generally means scaling the data to values between 0 and 1
 (this enables certain types of numerical analysis).
